@@ -74,7 +74,7 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 mr-2 text-indigo-400 mt-1" />
                 <span>
                   GGSIPU,<br />
-                  Dwaka Sector-14,<br />
+                  Dwaka Sector-16,<br />
                   India
                 </span>
               </li>

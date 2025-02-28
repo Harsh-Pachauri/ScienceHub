@@ -69,7 +69,7 @@ const About = () => {
         github: "https://github.com/mayankjangra",
         website: "https://mayankjangra.dev",
         image: "https://res.cloudinary.com/dzffxmfsu/image/upload/v1739719118/WhatsApp_Image_2025-02-16_at_20.44.31_48be4ab4_u1szp6.jpg?auto=format&fit=crop&w=400",
-        education: "B.Tech in Information Technology, USICT (2022-2026)",
+        education: "B.Tech in Information Technology, USICT (2023-2027)",
         projects: ["Design System Library", "Interactive Dashboard", "E-learning Platform UI"],
         achievements: ["UI/UX Design Competition Winner", "Featured on Behance Spotlight"]
     }
@@ -559,34 +559,6 @@ const marketStats = [
                     <p className="text-gray-600">{member.education}</p>
                   </div>
                   
-                  <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-gray-700 mb-2">Key Skills:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {member.skills.map((skill, idx) => (
-                        <span key={idx} className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                  
-                  <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-gray-700 mb-2">Notable Projects:</h4>
-                    <ul className="list-disc list-inside text-gray-600">
-                      {member.projects.map((project, idx) => (
-                        <li key={idx}>{project}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  
-                  <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-gray-700 mb-2">Achievements:</h4>
-                    <ul className="list-disc list-inside text-gray-600">
-                      {member.achievements.map((achievement, idx) => (
-                        <li key={idx}>{achievement}</li>
-                      ))}
-                    </ul>
-                  </div>
                   
                   <div className="mb-4">
                     <h4 className="text-sm font-semibold text-gray-700 mb-2">Contribution to ScienceHub:</h4>
